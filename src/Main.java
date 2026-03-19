@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
   // Create two Student objects
@@ -12,5 +11,17 @@ public class Main {
         // Optional: Test setters
         student1.setName("Alice Williams");
         System.out.println("Updated Student 1: " + student1.getName());
+
+
+
+
+        // Creating Student objects
+        Student student1 = new Student("Abdirasak", 1001);
+        Student student2 = new Student("Amina", 102);
+
+        // Printing names
+        System.out.println("------student names------");
+        System.out.println("Student 1 Name: " + student1.getName());
+        System.out.println("Student 2 Name: " + student2.getName());
     }
 }
